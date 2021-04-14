@@ -44,6 +44,7 @@ body,html{
     width: 40%;
     display: flex;
     justify-content: flex-end;
+    margin-top: 1rem;
 }
 
 .logo{
@@ -179,3 +180,24 @@ body,html{
     font-weight: 600;
     color: rgba(0, 0, 0, 0.452);
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 451px) {
+    .header-container{
+        height: 15rem;
+    }
+    .social-btn{
+        display: none;
+    }
+
+    .post-div{
+        width: 45%;
+    }
+
+    .post-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 250rem;
+    }
+  }
+
